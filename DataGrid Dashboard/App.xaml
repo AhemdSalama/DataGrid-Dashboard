@@ -1,0 +1,17 @@
+﻿<Application x:Class="DataGrid_Dashboard.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="topButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        
+        
+        
+        
+        
+        
+    </Application.Resources>
+</Application>
