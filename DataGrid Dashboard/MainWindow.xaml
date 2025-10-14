@@ -18,6 +18,7 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Left Menu-->
+                <!--Colume 0-->
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
@@ -25,10 +26,17 @@
                     </Grid.RowDefinitions>
                     
                     <!--Menu Icon-->
-                    <Button HorizontalAlignment="Left" Margin="20 28 0 35">
+                    <!--Row 0-->
+                    <Button Margin="20 28 0 35" Style="{StaticResource topButton}">
                         <Icon:PackIconMaterial Kind="Menu" Width="15" Height="15"/>
                     </Button>
+                    <!--Row 1-->
+                    <Border Grid.Row="1" Background="#623ed0" CornerRadius="0 50 0 30">
+                        
+                    </Border>
                 </Grid>
+
+                <!--Colume 1-->
 
             </Grid>
         </Border>
